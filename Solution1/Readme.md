@@ -30,7 +30,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 ## Solution
 
-The primary solution code is located in the file named "leetcode".
+The primary solution code is located in the file named "solution.py".
 
 ### Approach: Brute Force
 This implementation uses nested loops to evaluate every possible pair of numbers in the array. The outer loop selects the first number, and the inner loop checks all subsequent numbers to see if their sum matches the `target`. Once the exact match is found, the function returns their respective indices.
